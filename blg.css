@@ -6,6 +6,8 @@
   --crl-darkblue-500: #242F65;
   --crl-antracit-600: #2F2F2F;
   --crl-darkgrey-800: #2A2C32;
+  --crl-lightpink: #ECCFB8;
+  --crl-lightbrown: #AE7E56;
   
 
   --ff-primery: 'Fraunces', serif;
@@ -311,10 +313,10 @@ h1 {
 
   .button {
     border-radius: 10px;
-    padding: 18px 48px;
     cursor: pointer;
     border: none;
     text-decoration: none;
+    padding: 1rem;
     }
     
     .button > span::after {
@@ -343,6 +345,9 @@ h1 {
 
     .work--paragraph {
       max-width: 40%;
+      font-family: var(--ff-secondary);
+      font-size: var(--fs-20);
+      color: var(--crl-darkblue-500);
     }
 
     .work--heading{
@@ -358,6 +363,23 @@ h1 {
       background-image: url(img/Image\ Background.png);
       background-size: cover;
       padding: 1rem;
+    }
+
+    .testimonial:nth-child(3) {
+      background-image: url(img/BackgroundWork2.png);
+    }
+
+    .testimonial:nth-child(4) {
+      background-image: url(img/BackgroundWork3.png);
+    }
+
+    .testimonial:nth-child(5) {
+      background-image: url(img/BackgroundWork4.png);
+    }
+    
+    .button-lightPink {
+      background-color: var(--crl-lightpink);
+      color: var(--crl-lightbrown);
     }
 
 .vector-button-orange {
@@ -380,7 +402,7 @@ h1 {
   padding: 2rem;
   border-radius: 0.5rem;
   max-width: 76rem;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   }
 
 .line1 {
