@@ -8,6 +8,8 @@
   --crl-darkgrey-800: #2A2C32;
   --crl-lightpink: #ECCFB8;
   --crl-lightbrown: #AE7E56;
+  --crl-white: #fff;
+  --crl-lightgrey: #BBBBBB;
   
 
   --ff-primery: 'Fraunces', serif;
@@ -357,8 +359,6 @@ h1 {
       max-width: 50%;
     }
 
-    
-
     .testimonial:nth-child(2) {
       background-image: url(img/Image\ Background.png);
       background-size: cover;
@@ -389,6 +389,36 @@ h1 {
   
 }
 
+.grid-col-span {
+  grid-column: span2;
+}
+
+.twoColumn {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 3.25rem;
+}
+
+.backgroundImage {
+  background-image: url(img/backgroundImage.jpg);
+  background-size: cover;
+}
+
+
+.backgroundImage2 {
+  background-image: url(img/backgroundImage2.jpg);
+  background-size: cover;
+}
+
+.button-grey {
+  color: var(--crl-white);
+  background-color: var(--crl-lightgrey);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+
+}
   
   @media (min-width: 50em) {
   .testimonial-grid {
