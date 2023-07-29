@@ -275,6 +275,7 @@ h1 {
   padding-block: 2rem;
   width: min(95%, 70rem);
   margin-inline: auto;
+  border-radius: 2rem;
   }
 
   .section--work-pencil {
@@ -307,6 +308,65 @@ h1 {
     font-size: var(var(--fs-20));
     letter-spacing: 2px;
   }
+
+  .button {
+    border-radius: 10px;
+    padding: 18px 48px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    }
+    
+    .button > span::after {
+    content:"";
+    background: url('img/Vector.svg');
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    }
+    
+    .button-blue {
+    color: #6878AC;
+    max-width: 19rem;
+    background-color: #fff;
+    font-family: (var(--ff-secondary));
+    }
+    
+    .button-orange {
+    background-color: #FF774C;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    }
+
+    .work--paragraph {
+      max-width: 40%;
+    }
+
+    .work--heading{
+      font-family: var(--ff-primery);
+      font-size: var(--fs-40);
+      color: var(--crl-darkblue-500);
+      max-width: 50%;
+    }
+
+    
+
+    .testimonial:nth-child(2) {
+      background-image: url(img/Image\ Background.png);
+      background-size: cover;
+      padding: 1rem;
+    }
+
+.vector-button-orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
   
   @media (min-width: 50em) {
   .testimonial-grid {
