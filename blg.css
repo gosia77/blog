@@ -494,7 +494,7 @@ h1 {
 
 
 .copyRight-content {
-  line-height: 1rem;
+  line-height: 2rem;
   letter-spacing: 1px;
   gap: 2rem;
   padding: 1rem;
@@ -508,18 +508,25 @@ h1 {
 
   
   @media (min-width: 50em) {
-  
+    
   }
-/*   
-  .testimonial {
-  font-family: var(--ff-secondary);
-  padding: 2rem;
-  border-radius: 0.5rem;
-  max-width: 76rem;
-  } */
+
 
 .line1 {
   display: flex;
+}
+
+
+@media (width >= 23rem) {
+    article { font-size: 2rem; }
+
+    .section--work-pencil {
+      font-size: 2rem;
+    }
+
+    .mail-box {
+      font-size: 2rem;
+    }
 }
 
 
