@@ -159,7 +159,6 @@ ul {
 
 .header--page {
   font-family: var(--ff-secondary);
-  /* border: 2px solid red; */
   padding: 0.5rem;
   max-width: 1720px;
 }
@@ -179,7 +178,6 @@ ul {
   position: relative;
   right: 2rem;
   bottom: 10rem;
-  /* width: 100%; */
   box-sizing: border-box;
   font-size: clamp(2rem, 05vw + 1rem, 3rem);
 }
@@ -195,12 +193,6 @@ h1 {
   line-height: var(--lh-110);
 }
 
-/* .png {
-  max-width: 4rem;
-  position: relative;
-  right: 14rem;
-} */
-
 .container--paragraph {
   text-align: center;
   font-size: clamp(1rem, 0.5vw + 1rem, 2rem);
@@ -214,7 +206,6 @@ h1 {
   margin: 0.5rem 0;
   color: var(--crl-darkblue-500);
   font-family: var(--ff-secondary);
-  /* position: inherit; */
 }
 
 .job-description-center {
@@ -279,7 +270,7 @@ h1 {
 
 .grid {
   display: grid;
-  row-gap: 3rem;
+  row-gap: 2rem;
 }
 
 .testimonial-grid {
@@ -293,16 +284,6 @@ h1 {
   border-radius: 2rem;
 }
 
-/* .testimonial  {
-  display: grid;
-  gap: 2rem;
-  grid-auto-rows: 1fr;
-  
-  padding-block: 2rem;
-  width: min(95%, 70rem);
-  margin-inline: auto;
-  border-radius: 2rem;
-  } */
 
   .section--work-pencil {
     display: flex;
@@ -465,21 +446,7 @@ h1 {
   display: grid;
   
 }
-/* 
-.moveing-text {
-  padding: 1rem;
-  margin: 1rem;
-} */
-/* 
-.footer--line {
-  padding: 1rem;
-  margin: 1rem;
 
-} */
-
-.footer--item {
-  
-}
 
 .links {
   color: var(--crl-darkblue-500);
@@ -524,6 +491,21 @@ h1 {
   color: var(--crl-white);
   cursor: pointer;
 }
+
+
+.copyRight-content {
+  line-height: 1rem;
+  letter-spacing: 1px;
+  gap: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  color: var(--crl-darkblue-500);
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-20);
+}
+
+
   
   @media (min-width: 50em) {
   
