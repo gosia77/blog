@@ -441,9 +441,10 @@ h1 {
 
 /* footer */
 .footer {
-  max-width: 86rem;
   background-image: url(img/footer\ background.png);
   display: grid;
+  padding: 2rem;
+  margin: 1rem;
   
 }
 
